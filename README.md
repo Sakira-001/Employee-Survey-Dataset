@@ -79,57 +79,44 @@ The raw data for this dashboard includes a comprehensive dataset of employee det
 ---
 
 ## Insights
-1. **Leading Causes of Collisions**:
-   - The top contributing factor to collisions is "Unspecified", meaning a lack of detailed reporting.
-   - Driver inattention/distraction is the most reported cause, emphasizing the need for awareness campaigns on focused driving.
-2. **Fatalities Across Boroughs**:
-   - Brooklyn has the highest fatalities among pedestrians, motorists, and cyclists.
-   - Motorists experience the most fatalities overall, suggesting that driver safety improvements are needed.
-3. **Vehicle Types in Collisions**:
-   - Passenger vehicles account for the highest number of collisions, far exceeding any other vehicle type across all boroughs.
-   - Bicycles, taxis, motorcycles, and buses contribute to accidents but at significantly lower numbers compared to passenger vehicles.
-   - Brooklyn leads in overall collisions, followed by Queens and the Bronx, possibly due to higher traffic density and population.
+1. **High Agreement with Inclusion & Diversity**: Employees responded most positively to questions related to diversity and inclusion, showing strong support for an inclusive workplace culture.
+2. **Departments with Clear Growth Paths Show Higher Satisfaction**: Departments like Infrastructure & Transportation and Human Resources had the highest satisfaction and learning opportunities, indicating that development opportunities influence engagement.
+3. **Job Role Clarity and Recognition Are Weak Points**: Statements about job role clarity and recent recognition received the lowest levels of agreement, suggesting gaps in communication and appreciation.
+4. **Supervisors Have a Strong Impact on Engagement**: Survey items related to supervisor support and accountability had varied responses across departments, indicating that leadership quality differs significantly by team.
 
 ---
 
 ## Tools & Techniques Used
 1. **Power BI**:
    - Power Query Editor for extensive data cleaning and transformation.
-   - DAX (Data Analysis Expressions) to calculate key metrics like total collisions, injuries, fatalities, and percentage breakdowns.
-   - Slicers for dynamic filtering by borough, vehicle type, month, and contributing factors.
-   - Custom Visuals including bar charts, pie charts, stacked columns, KPIs, and heatmaps for clear insight presentation.
+   - DAX (Data Analysis Expressions) to calculate key metrics.
+   - Slicers for dynamic filtering.
+   - Custom Visuals including bar charts, pie charts, stacked columns, and KPIs for clear insight presentation.
 2. **Figma**: Designed visual mockups and layout guides to ensure a clean, user-friendly dashboard interface.
 
 ---
 
 ## Questions & Answers
-### Q1: Compare the % of total accidents by month. Do you notice any seasonal patterns? 
-**A**: Yes, a clear seasonal pattern emerges. The highest percentage of accidents occurred in October, followed by June and August. The months with the lowest accident rates were February and January.
+### Q1: Which survey questions did respondents agree with or disagree with most? 
+**Ans**: Respondents agreed most with statements related to inclusion and diversity and job satisfaction, while the least agreement was observed in areas concerning recognition for good work, supervisor accountability, and clarity around job roles.
 
-### Q2: Break down accident frequency by day of week and hour of day. Based on this data, when do accidents occur most frequently?
-**Ans**: - Accidents peak sharply around midnight (12:00 AM) — likely due to the timestamp default or batch reporting practices — followed by a steady increase from 6:00 AM, with consistent spikes between 8:00 AM to 6:00 PM, especially around 3:00 PM to 6:00 PM, coinciding with afternoon rush hours.
-         - By Day of Week: Fridays have the highest accident frequency, followed closely by Thursdays and Wednesdays.
-Weekends (especially Sundays) see fewer incidents, likely due to reduced commuting traffic.
+### Q2: Do you see any patterns or trends by department or role? 
+**Ans**: Yes. Departments like Infrastructure & Sustainability and Legal & Judicial had the highest satisfaction levels and growth opportunities, while departments like Facilities Management and Economic Development showed lower levels of positive sentiment. In terms of roles, supervisors had the highest representation, and staff made up the majority of respondents. Certain roles consistently reported lower satisfaction, especially in areas of praise and performance accountability.
 
-### Q3:  On which particular street were the most accidents reported? What does that represent as a % of all reported accidents? 
-**Ans**: The street with the most reported accidents was Brooklyn.
-
-### Q4: What was the most common contributing factor for the accidents reported in this sample (based on 
-Vehicle 1)? What about fatal accidents specifically?  
-**Ans**: - The most common contributing factor across all accidents (based on Vehicle 1) was Unspecified.
-         - For fatal accidents specifically, the leading contributing factor remained Unspecified.
+### Q3:  As an employer, what steps might you take to improve employee satisfaction based on the survey results?  
+**Ans**: To improve satisfaction, I would prioritize recognizing employee efforts, enhancing clarity of job expectations, and holding supervisors more accountable for team performance.
 
 ---
 
 ## Recommendation
-1. Enhance Driver Awareness & Distraction Prevention Campaigns: Implementing stricter penalties for distracted driving and Conducting public awareness campaigns on focused driving and accident prevention.
-2. Improve Traffic Control & Law Enforcement: Increase traffic patrols in high-collision areas and Enforce speed limits, right-of-way laws, and lane discipline more strictly.
-3. Develop Safer Infrastructure for Cyclists & Pedestrians: Expand dedicated bike lanes and pedestrian-friendly zones and Install more traffic calming measures (e.g., speed bumps, pedestrian islands).
-4. Targeted Safety Measures in High-Collision Boroughs: Brooklyn & Queens: Implement city-wide road safety programs due to high fatalities.
+1. Implement structured recognition systems to regularly highlight employee achievements and foster a culture of appreciation.
+2. Provide role-specific training and frequent manager check-ins to ensure employees clearly understand their responsibilities and performance expectations.
+3. Replicate learning and development initiatives from high-performing departments (e.g., Human Resources) across other units to improve satisfaction organization-wide.
+4. Equip all supervisors with people-management training to ensure consistent employee support, accountability, and workplace experience.
 ---
 
 ## Conclusion
-This project successfully analyzed NYC traffic accident data to identify key patterns and risk factors. The insights gathered can help inform safety initiatives, improve traffic management, and reduce accident occurrences through data-driven decisions.
+The employee engagement survey analysis revealed key strengths in workplace inclusivity and growth opportunities, while also identifying areas needing improvement such as recognition and job clarity. Addressing these gaps through targeted initiatives can significantly enhance overall employee satisfaction and organizational performance.
 
 ---
 
