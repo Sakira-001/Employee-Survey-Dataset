@@ -1,6 +1,6 @@
 # Employee-Survey-Dataset
 
-This project analyzes traffic collision data in New York City to identify trends, risk factors, and high-incident areas. By visualizing key metrics such as accident counts by borough, vehicle type, and fatality rates, this analysis provides insights to improve road safety and inform urban planning strategies.
+This project analyzes Employee Survey Responses that are actual responses from an employee engagement survey conducted by Pierce County WA and completed voluntarily by government employees. The dataset is a Single table and contains 14,725 records. The total number of fields is 10.
 ---
 
 ## Table of Contents
@@ -19,37 +19,33 @@ This project analyzes traffic collision data in New York City to identify trends
 ---
 
 ## Overview
-This interactive dashboard comprehensively analyses traffic collisions across New York City. It is designed to help stakeholders—such as city planners, transportation officials, safety advocates, and the general public—better understand collision patterns, identify high-risk areas, and support data-driven decisions to enhance road safety.
+The Employee Performance Dashboard visualizes insights from a county-wide engagement survey of over 14,000 government employees, highlighting trends in satisfaction, growth, and workplace culture by role and department. It enables quick identification of strengths and improvement areas to support data-driven HR decisions.
 
 ---
 
 ## Raw Data
 The raw data for this dashboard includes a comprehensive dataset of employee details from a fictional company. It consists of the following fields:
 
-1. **Collison ID**: A unique identifier for each collision record.
-2. **Date**: The date on which the collision occurred.
-3. **Time**: The specific time the collision happened.
-4. **Borough**: The borough (e.g., Brooklyn, Queens, Bronx, etc.) where the collision occurred.
-5. **Zip Code**: The zip code of the location where the accident took place.
-6. **Latitude**: The latitude coordinate for the accident location.
-7. **Longitude**: The longitude coordinate for the accident location.
-8. **Street Name**: The primary street name where the accident occurred.
-9. **Number of Persons Injured**: Total number of individuals injured in the accident.
-10. **Number of Persons Killed**: Total number of individuals who died as a result of the accident.
-11. **Number of Pedestrians Injured**: Number of injured individuals who were pedestrians.
-12. **Number of Pedestrians Killed**: Number of pedestrians who died in the accident.
-13. **Number of Cyclist Injured**: Number of injured individuals who were riding bicycles.
-14. **Number of Cyclist Killed**: Number of cyclists who were killed.
-15. **Number of Motorist Injured**: Number of motorists injured in the accident.
-16. **Number of Motorist Killed**: Number of motorists who died in the accident.
+1. **Response ID**: Unique, sequential ID representing a response to a survey question.
+2. **Status**: Identifies whether a response was complete or incomplete.
+3. **Department**: Survey respondent's job department (Human Resources, Public Works, etc.).
+4. **Director**:Binary (0/1) field indicating if the respondent is in a Director role.
+5. **Manager**: Binary (0/1) field indicating if the respondent is in a Manager role.
+6. **Supervisor**: Binary (0/1) field indicating if the respondent is in a Supervisor role.
+7. **Staff**: Binary (0/1) field indicating if the respondent is in a Staff role.
+8. **Question**: Full survey question text.
+9. **Response**: Survey response value (0, 1, 2, 3, 4).
+10. **Response Text**: Survey response text (Not Applicable, Strongly Disagree, Disagree, Agree, Strongly Agree).
 
 ---
 
 ### Data Cleaning Process in Power Query
-- **Removed Duplicates**: Identified and removed duplicate rows based on Collision ID to ensure each collision record is unique.
-- **Time Data Type**: Changed the time data type from Time & Date to Time only.
-- **Null**: Chabged the Null values in the Borough, Steet Name and Contributing factor column to "Unknown or "Unspecified".
-- **Find and Replace**: Used the Find and Replace to reduce the contents "Vehicle" and "Contributing Factors" columns.
+- **Column Renaming for Clarity**: Long and complex survey questions were shortened for readability and better visualization in the dashboard (e.g., “1. I know what is expected of me at work” was renamed to “Job Expectation Clarity”).
+- **Data Type Formatting**: Ensured columns like Employee ID, Department, Role, and survey responses were in appropriate data types (text, categorical, etc.) to support filtering and calculations.
+- **Duplicate Removal**: Checked and removed any duplicate rows to ensure each employee's response was only counted once.
+- **Handling Missing Values**: Addressed missing survey responses (e.g., using “Not Applicable” or excluding them from certain calculations depending on context).
+- **Category Grouping**: Grouped departments into 10 broad categories for better aggregation and analysis.
+- **Role Filtering**: Filtered and calculated the total and percentage of staff, managers, directors, and supervisors for comparative insights.
 
 ---
 
