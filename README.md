@@ -50,15 +50,15 @@ The raw data for this dashboard includes a comprehensive dataset of employee det
 ---
 
 ## Dashboard Features
-- **Interactive Filters**: Users can slice and explore the data by borough, vehicle type, contributing factors, month, and injury/fatality type for flexible, in-depth analysis.
-- **Visualizations**: The dashboard incorporates bar charts, pie charts, stacked columns, and heat maps to clearly display accident trends, contributing causes, and spatial distribution.
-- **Custom Groupings**: Vehicle types and contributing factors were grouped into meaningful categories (e.g., Passenger, Commercial, Unknown) to simplify interpretation.
-- **Time-Based Analysis**: Monthly and hourly trend graphs allow users to detect seasonal patterns and peak collision times.
-- **Highlight Cards (KPIs)**: Summary cards show total collisions, injuries, and fatalities, providing an instant snapshot of the overall impact.
-- **User-Centric Design**: Custom color schemes, consistent font styles, and intuitive slicer layouts were applied to ensure clarity, readability, and visual appeal.
-- **Responsive Insights**: All charts dynamically update based on selected filters, helping users draw targeted conclusions based on specific scenarios.
+- **Interactive Filters**: Users can filter survey results by department, employee role, response type, and specific survey questions for deeper analysis and segmentation.
+- **Visualizations**: The dashboard uses bar charts, stacked columns, and summary cards to display employee satisfaction, departmental performance, and response trends.
+- **Custom Groupings**: Departments were categorized into 10 broader groups to simplify analysis and highlight trends across organizational clusters.
+- **Survey Question Simplification**: Long survey questions were renamed to concise, readable labels to enhance dashboard clarity and usability.
+- **Highlight Cards (KPIs)**: Summary cards provide quick insight into the total number of Staff, Managers, Directors, and Supervisors.
+- **Departmental Insights**: Key sections focus on job satisfaction, workplace support, productivity, and growth opportunities across departments.
+- **Dynamic Data Updates**: All visuals update instantly based on slicer selections, enabling targeted comparisons and scenario-based insights.
 
-![NYC_ROAD_ACCIDENT_DASHBOARD]("")
+![Employee_Survey_Dataset]("")
 
 ---
 
