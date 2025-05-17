@@ -29,7 +29,7 @@ The raw data for this dashboard includes a comprehensive dataset of employee det
 1. **Response ID**: Unique, sequential ID representing a response to a survey question.
 2. **Status**: Identifies whether a response was complete or incomplete.
 3. **Department**: Survey respondent's job department (Human Resources, Public Works, etc.).
-4. **Director**:Binary (0/1) field indicating if the respondent is in a Director role.
+4. **Director **: Binary (0/1) field indicating if the respondent is in a Director role.
 5. **Manager**: Binary (0/1) field indicating if the respondent is in a Manager role.
 6. **Supervisor**: Binary (0/1) field indicating if the respondent is in a Supervisor role.
 7. **Staff**: Binary (0/1) field indicating if the respondent is in a Staff role.
@@ -63,34 +63,22 @@ The raw data for this dashboard includes a comprehensive dataset of employee det
 ---
 
 ## Key Metrics
-1. **Total Reported Collisions**: 91,286
-2. **Total Injuries**: 45,317
-   - Persons Injured: 37,198
-   - Pedestrians Injured: 4,211
-   - Cyclists Injured: 1,932
-   - Motorists Injured: 1,976
-3. **Total Fatalities**: 276
-   - Persons Killed: 213
-   - Pedestrians Killed: 39
-   - Cyclists Killed: 12
-   - Motorists Killed: 12
-4. **Borough with Most Collisions**: Brooklyn
-5. **Most Common Contributing Factor**: Driver Inattention/Distraction
-6. **Peak Collision Hours**: Between 3 PM – 6 PM
-7. **Collisions by Vehicle Type**:
-   - Passenger Vehicles: 58%
-   - Commercial Vehicles: 18%
-   - Two-Wheelers (Motorcycles, Bicycles): 9%
-   - Emergency Services: 3%
-   - Others: 6%
-   - Unknown/Not Reported: 6%
-8. **Seasonal Pattern**: Highest collisions recorded in October, lowest in February
-9. **Most Affected Demographic**: Motorists and pedestrians injured in Brooklyn and Queens
-10. **Location Hotspots**: Most incidents occurred in densely populated areas with high traffic volume
+1. **Total Survey Responses**: 14,725
+2. **Employee Role Breakdown**:
+   - Staff: 1,239
+   - Managers: 1,061
+   - Directors: 164
+   - Supervisors: 1,645
+3. **Highest Agreed Survey Statement**: “Department Inclusion & Diversity” (663 agreements)
+4. **Lowest Agreed Survey Statement**: “Job Role Clarity” (495 agreements)
+5. **Department with Highest Satisfaction**: Infrastructure & Transportation
+6. **Top Department for Learning & Growth**: Human Resources
+7. **Department with Lowest Employee Satisfaction**: Economic Development
+8. **Key Engagement Areas**: Job Satisfaction, Supervisor Support, Workplace Friendship, and Opportunity to Excel
 
 ---
 
-## Insights & Conclusions
+## Insights
 1. **Leading Causes of Collisions**:
    - The top contributing factor to collisions is "Unspecified", meaning a lack of detailed reporting.
    - Driver inattention/distraction is the most reported cause, emphasizing the need for awareness campaigns on focused driving.
